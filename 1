@@ -1,0 +1,21 @@
+
+//При помощи циклов вы можете повторять один и тот же код множество раз.
+//Напишите простейшую программу которая выводит заданное пользователем сообщение заданное пользователем количество раз.
+
+namespace ConsoleApp23
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string message = "R A G E R O F F";
+            int count;
+            Console.Write("Напиши сколько раз вы хотели чтоб слово повторялось: ");
+            count = Convert.ToInt32(Console.ReadLine());
+            for(int i = 0; i < count; i++)
+            {
+                Console.WriteLine(message);
+            }
+        }
+    }
+}
